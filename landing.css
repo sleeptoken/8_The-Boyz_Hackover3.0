@@ -1,16 +1,29 @@
 body {
-    margin: 0;
-    padding:0 ;
+    margin:0;
+    padding:0;
+    background:url("ipad-pro-2021-1920x1080-abstract-apple-april-2021-event-4k-23370.jpg");
+    background-size: cover;
+    font-family: sans-serif;
 }
 .logo {
     min-height: 100vh;
     width: 100%;
-    background-image: url(snake-motion-abstract-dark-8k-wallpaper-5377501655216806.jpg);
+   
 }
 .showcase {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position:relative;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 20px;
+    display: inline-block;
+    left: 40%;
+    top: 240px;
 }
 .showcase-top {
     position: relative;
@@ -30,4 +43,21 @@ body {
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.142);
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.093);
+    padding: 20px;
+    display: inline-block;
+    
+}
+.logo_top {
+    align-items: center;
+}
+.cou:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.473) ;
+    
 }
