@@ -1,0 +1,41 @@
+.bg1{
+    color: rgb(178, 186, 204);
+}
+.nav1{
+    margin-left: 20%;
+}
+.nav2{
+    margin-left: 20%;
+}
+.nav3{
+    margin-left: 30%;
+}
+.main1{
+    margin-top: 20px;
+}
+.event1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+ align-items: center;
+}
+.heading1{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.card1{
+    margin-left: 8%;
+   
+}
+body{
+    margin:0;
+    padding:0;
+    background:url("ipad-pro-2021-1920x1080-abstract-apple-april-2021-event-4k-23370.jpg");
+    background-repeat: repeat; 
+    font-family: sans-serif;
+}
+.footer{
+    height: 100px;
+    background-color: black;
+    color: aliceblue;
+}
